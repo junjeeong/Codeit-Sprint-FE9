@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #11172b;
+}
+
+#header-container {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.header-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-logo {
+    vertical-align: middle;
+    height: 24px;
+    margin: 12px 12px;
+}
+
+.top-ticket {
+    margin-top: 40px;
+    margin: 40px auto 0;
+    width: 640px;
+    background-color: #ebeff8;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.top-ticket-container {
+    margin: 24px 32px;
+}
+
+.top-ticket h4 {
+    font-size: 16px;
+    color: #b3bdd5;
+}
+
+.top-ticket h4>img {
+    height: 12px;
+    margin-right: 12px;
+}
+
+.top-ticket h1 {
+    font-size: 32px;
+    font-family: Titillium Web;
+    color: #000000;
+    margin-top: 8px;
+}
+
+.top-ticket h3 {
+    width: 40%;
+    text-align: center;
+    padding: 8px 24px;
+    margin-top: 24px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.top-ticket p {
+    font-size: 12px;
+    color: #b3bdd5;
+    margin-top: 16px;
+}
+
+.divider {
+    width: 640px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px dashed #b6bfd3;
+}
+
+.days-information-ticket {
+    width: 640px;
+    margin: 20px auto 0;
+    background-color: #ffffff;
+}
+
+.ticket-header {
+    border-bottom: 1px solid #dbf1ec;
+    background-color: #ffffff;
+}
+
+.ticket-header h3 {
+    padding: 8px 24px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Titillium Web;
+    color: #16bf97;
+}
+
+.ticket-information {
+    margin: 26px 24px;
+}
+
+.ticket-information>h4 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #b3bdd5;
+}
+
+.ticket-information>h4:nth-of-type(1) {
+    margin-top: 26px;
+}
+
+.ticket-information>h4:nth-of-type(2) {
+    margin-top: 4px;
+}
+
+.ticket-information>h4:nth-of-type(3) {
+    margin-top: 4px;
+    font-size: 16px;
+    color: #0b1f66;
+}
+
+.ticket-time {
+    margin-top: 4px;
+}
+
+.ticket-time * {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a345e;
+}
+
+.ticket-time>img {
+    width: 18px;
+    margin: 0 10px;
+}
+
+.booking-section {
+    text-align: right;
+    padding: 0 24px 24px;
+}
+
+.booking-section * {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1a345e;
+}
+
+.facilities {
+    margin: 0 24px;
+}
+
+.soldout {
+    font-size: 14px;
+    font-weight: 500;
+    color: #dce0e8;
+}
