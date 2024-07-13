@@ -68,7 +68,7 @@ main {
   grid-template-areas:
     "prices assets"
     "prices order";
-  grid-column-gap: 24px;
+  gap: 24px;
 }
 
 section {
